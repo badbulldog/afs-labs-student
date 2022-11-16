@@ -24,4 +24,5 @@ spec:
             name: db-secret
         name: db-deployment
         image: harbor.dev.afsmtddso.com/ylee-harbor-project/db:971c881-f372d9f
+        ports:
         - containerPort: 5432
