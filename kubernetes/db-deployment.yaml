@@ -23,6 +23,5 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: harbor.dev.afsmtddso.com/ylee-harbor-project/db@sha256:016e139bcba1aeeadfeae00665a72770461d436da7947799498a45f7ce1ea482
-        ports:
+        image: harbor.dev.afsmtddso.com/ylee-harbor-project/db@sha256:f170132f0ffdcbb4374b41593b913d3163da868d63afde2db9d8684dd3c1311d
         - containerPort: 5432
