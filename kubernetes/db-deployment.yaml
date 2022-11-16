@@ -23,5 +23,5 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: docker pull harbor.dev.afsmtddso.com/ylee-harbor-project/db:971c881-f372d9f
+        image: harbor.dev.afsmtddso.com/ylee-harbor-project/db:971c881-f372d9f
         - containerPort: 5432
